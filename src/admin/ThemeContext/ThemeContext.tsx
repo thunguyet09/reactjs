@@ -1,5 +1,3 @@
-// ThemeContext.tsx
-
 import { createContext, ReactNode, useState, useCallback } from "react";
 
 interface ThemeContextType {
