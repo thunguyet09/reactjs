@@ -1,0 +1,201 @@
+.Header {
+    background-color: #FFFFDD;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.purple, .green, .blue, .pink, .brown, .yellow {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.purple {
+    background-color: #FDE2F3;
+}
+
+.green {
+    background-color: #9FBB73;
+}
+
+.brown {
+    background-color: #AD8E70;
+}
+
+.blue {
+    background-color: #B4D4FF;
+}
+
+.pink {
+    background-color: #FBA1B7;
+}
+
+.yellow {
+    background-color: #FFFFDD;
+}
+.avatar > div {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.avatar > div > img {
+    border-radius: 50%;
+}
+
+.avatar > div > span {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 22px;
+}
+
+.avatarList {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #659389;
+    display: none;
+}
+
+.avatarList > li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: 100%;
+    padding: 10px 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatarList > li:hover {
+    background-color: #659389;
+    color: white;
+}
+
+.avatarList > li > span {
+    font-size: 14px;
+}
+
+.avatarList > li > p {
+    margin: 0;
+    font-size: 15px;
+    margin-top: 2px;
+    font-family: 'Lato', sans-serif;
+}
+
+.avatar:hover > .avatarList {
+    display: block;
+}
+
+.avatar {
+    height: 50px;
+    padding: 10px 30px;
+}
+
+.multiTheme {
+    line-height: 30px;
+    position: relative;
+    margin-top: 5px;
+}
+.multiTheme > div > p {
+    margin: 0;
+}
+
+.palette {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.palette:hover {
+    box-shadow: 0 4px 4px rgb(218, 218, 218);
+    border-radius: 5px;
+}
+
+.theme {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 10px;
+    padding-left: 12px;
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 5px;
+    visibility: hidden;
+    position: absolute;
+    background-color: white;
+}
+
+.multiTheme:hover > .theme {
+    visibility: visible;
+}
+.theme > div, .theme > p {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.purpleBox{
+    width: 25px;
+    height: 25px;
+    background-color: #BEADFA;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+    border:none;
+    outline:none;
+}
+
+.greenBox {
+    width: 25px;
+    height: 25px;
+    background-color: #9FBB73;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+}
+
+.blueBox {
+    width: 25px;
+    height: 25px;
+    background-color: #B4D4FF;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+}
+
+.pinkBox {
+    background-color: #FBA1B7;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+}
+
+.brownBox {
+    background-color: #AD8E70;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+}
+
+.yellowBox {
+    background-color: #FFEEAD;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+}
